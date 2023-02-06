@@ -5,7 +5,7 @@ const SetupCard = function () {
         <div className="flex min-h-screen flex-col items-center justify-center py-2 dark:bg-gray-900">
             <div id="setUpCard" className="relative bg-white rounded-2xl border border-gray-100 hover:shadow-sm">
                 <div className="relative">
-                    <div className="flex gap-3.5 z-10 fixed pl-36 pr-36 py-14 items-center">
+                    <div className="flex gap-3.5 z-10 fixed px-36 py-14 items-center">
                         <motion.svg whileHover={{y: -4, scale: 1.1}} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="0.5" y="0.5" width="23" height="23" rx="5.5" stroke="#BFBFBF"/>
                         </motion.svg>
